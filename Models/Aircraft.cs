@@ -3,26 +3,26 @@ using System;
 namespace FlightAPI.Models {
     public class Aircraft {
         public int Id { get; set; }
-        public string Model { get; set; }
+        public string? Model { get; set; }
         public int PassengerCapacity { get; set; }
         public float CargoCapacity { get; set; }
         public float CargoQuantity { get; set; }
         public int PassangerQuantity { get; set; }
 
         public void PostAircraft() {
-            // Implemente a lógica para adicionar um novo avião aqui
+            // Implemente a lï¿½gica para adicionar um novo aviï¿½o aqui
         }
 
         public void PatchAircraft() {
-            // Implemente a lógica para atualizar um avião aqui
+            // Implemente a lï¿½gica para atualizar um aviï¿½o aqui
         }
 
         public void GetAircraft() {
-            // Implemente a lógica para obter informações de um avião aqui
+            // Implemente a lï¿½gica para obter informaï¿½ï¿½es de um aviï¿½o aqui
         }
 
         public void DeleteAircraft() {
-            // Implemente a lógica para excluir um avião aqui
+            // Implemente a lï¿½gica para excluir um aviï¿½o aqui
         }
 
         public bool IsCapacityExceeded() {
@@ -30,7 +30,7 @@ namespace FlightAPI.Models {
                 return true;
             }
 
-            return false; // Adicione esse retorno para todos os caminhos possíveis
+            return false; 
         }
     }
 }

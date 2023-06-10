@@ -5,6 +5,11 @@
       "taskLabel": "tarefa-Aircraft",
       "appliesTo": "Models/Aircraft.cs",
       "type": "launch"
+    },
+    {
+      "taskLabel": "tarefa-FlightStatus",
+      "appliesTo": "Models/FlightStatus.cs",
+      "type": "launch"
     }
   ]
 }

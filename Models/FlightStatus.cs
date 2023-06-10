@@ -1,18 +1,22 @@
 ﻿using System;
 
+
 namespace FlightAPI.Models {
+
     public class FlightStatus {
+
+        public int Id { get; set; }
         public bool FlightConfirmed { get; set; }
         public bool FlightDelay { get; set; }
         public bool FlightCanceled { get; set; }
 
-        public string DelayReason { get; set; }
+        public string? DelayReason { get; set; }
         public DateTime NewTime { get; set; }
 
-        public string CancellationReason { get; set; }
+        public string? CancellationReason { get; set; }
         public DateTime Rebook { get; set; }
 
-        public void ConfirmFlight(string reason) {
+        public void ConfirmFlight() {
             FlightConfirmed = true;
             FlightDelay = false;
             FlightCanceled = false;

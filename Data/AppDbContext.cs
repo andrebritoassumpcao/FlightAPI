@@ -6,6 +6,7 @@ namespace FlightAPI.Data {
     public class AppDbContext : DbContext {
         public DbSet<Flight> Flights { get; set; }
         public DbSet<Aircraft> Aircrafts { get; set; }
+        public DbSet<FlightStatus> FlightStatuses  { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder) {
             optionsBuilder.UseSqlite("Data Source=app.db;Cache=Shared");

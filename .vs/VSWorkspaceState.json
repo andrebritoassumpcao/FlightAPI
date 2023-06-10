@@ -2,8 +2,9 @@
   "ExpandedNodes": [
     "",
     "\\Data",
+    "\\Migrations",
     "\\Models"
   ],
-  "SelectedNode": "\\Models\\Scales.cs",
+  "SelectedNode": "\\Models\\FlightStatus.cs",
   "PreviewInSolutionExplorer": false
 }
