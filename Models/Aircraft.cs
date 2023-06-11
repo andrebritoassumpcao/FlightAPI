@@ -10,19 +10,19 @@ namespace FlightAPI.Models {
         public int PassangerQuantity { get; set; }
 
         public void PostAircraft() {
-            // Implemente a l�gica para adicionar um novo avi�o aqui
+            // Implemente a logica para adicionar um novo aviao aqui
         }
 
         public void PatchAircraft() {
-            // Implemente a l�gica para atualizar um avi�o aqui
+            // Implemente a logica para atualizar um aviao aqui
         }
 
         public void GetAircraft() {
-            // Implemente a l�gica para obter informa��es de um avi�o aqui
+            // Implemente a logica para obter informacoes de um aviso aqui
         }
 
         public void DeleteAircraft() {
-            // Implemente a l�gica para excluir um avi�o aqui
+            // Implemente a logica para excluir um aviao aqui
         }
 
         public bool IsCapacityExceeded() {
